@@ -1,53 +1,38 @@
 {
-  "name": "mahabub-dlmedia",
-  "version": "1.0.7",
-  "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive & Pintarest & likee & threads",
+  "name": "media-downloader-mh",
+  "version": "1.0.0",
+  "description": "download videos from URLs and autocrop (Instagram, YouTube, TikTok, X, etc.) to send directly to Discord or other!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MAHABUB720/mahabub-downloadmedia"
+    "url": "git+https://github.com/MAHABUB720/mahabub-downloadmedia.git"
   },
   "keywords": [
-    "instagram",
-    "downloader",
+    "discord",
     "media",
-    "link",
-    "tiktok",
-    "tikvm",
-    "video",
-    "fbdownload",
-    "twdown.net",
-    "fbdownload",
     "download",
-    "facebook",
-    "fbdown",
+    "downloader",
+    "instagram",
+    "tiktok",
     "youtube",
-    "yt download",
-    "Twitter",
-    "gdrive",
-    "drive link",
-    "google drive",
-    "pintarest",
-    "all media download",
-    "media download",
-    "capcut",
-    "likee",
-    "threads",
-    "imran"
+    "video"
   ],
-  "author": "Mahabub",
-  "license": "MIT",
+  "author": "MAHABUB",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/MAHABUB720/mahabub-downloadmedia/issues"
   },
   "homepage": "https://github.com/MAHABUB720/mahabub-downloadmedia#readme",
-
   "dependencies": {
-    "axios": "^1.4.0",
-    "nayan-media-downloader": "^2.4.9"
+    "@sasmeee/igdl": "^1.0.0",
+    "@tobyg74/tiktok-api-dl": "^1.0.13",
+    "axios": "^1.6.2",
+    "@distube/ytdl-core": "^4.13.5",
+    "twitter-downloader": "^1.1.7",
+    "ffmpeg-ffprobe-static": "^6.1.1-rc.5",
+    "fluent-ffmpeg": "^2.1.3"
   }
 }
